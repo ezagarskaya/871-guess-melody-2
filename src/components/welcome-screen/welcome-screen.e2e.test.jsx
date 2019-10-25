@@ -10,7 +10,7 @@ it(`WelcomeScreen is correctly rendered after relaunch`, () => {
   const app = shallow(<WelcomeScreen
     time={0}
     errorCount={0}
-    onClick={clickHandler}
+    handleClick={clickHandler}
   />);
 
   const startButton = app.find(`button`);
